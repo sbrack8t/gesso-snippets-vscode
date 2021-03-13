@@ -1,0 +1,156 @@
+{
+  "Gesso Breakpoint": {
+		"prefix": "gb",
+		"scope": "scss",
+		"body": [
+			"gesso-breakpoint(${1|mobile,mobile-lg,tablet,mobile-menu,tablet-lg,desktop,desktop-lg,widescreen|})"
+		],
+		"description": "Get breakpoint information"
+	},
+	"Breakpoint Sass with Gesso": {
+		"prefix": "bpg",
+		"scope": "scss",
+		"body": [
+			"@include breakpoint(gesso-breakpoint(${1|mobile,mobile-lg,tablet,mobile-menu,tablet-lg,desktop,desktop-lg,widescreen|})) {",
+			"  ${2}",
+			"}"
+		],
+		"description": "Use breakpoint sass with gesso function as the argument"
+	},
+	"Gesso Constrain": {
+		"prefix": "gcn",
+		"scope": "scss",
+		"body": [
+			"gesso-constrain(${1|sm,md,lg|})"
+		],
+		"description": "Get constrain value"
+	},
+	"Gesso Spacing": {
+		"prefix": "gsp",
+		"scope": "scss",
+		"body": [
+			"gesso-spacing(${1})"
+		],
+		"description": "Get spacing information"
+	},
+	"Gesso Font Family": {
+		"prefix": "gff",
+		"scope": "scss",
+		"body": [
+			"gesso-font-family(${1})"
+		],
+		"description": "Get font family value"
+	},
+	"Font Family with Gesso Function": {
+		"prefix": "gff+",
+		"scope": "scss",
+		"body": [
+			"font-family: gesso-font-family(${1});"
+		],
+		"description": "Font family rule with Gesso function"
+	},
+	"Gesso Font Size": {
+		"prefix": "gfz",
+		"scope": "scss",
+		"body": [
+			"gesso-font-size(${1|0,1,2,3,4,5,6,7,8,9,10,11|})"
+		],
+		"description": "Get font size value"
+	},
+	"Font Size with Gesso Function": {
+		"prefix": "gfz+",
+		"scope": "scss",
+		"body": [
+			"font-size: gesso-font-size(${1|0,1,2,3,4,5,6,7,8,9,10,11|});"
+		],
+		"description": "Font Size with Gesso Function"
+	},
+	"Gesso Font Weight": {
+		"prefix": "gfw",
+		"scope": "scss",
+		"body": [
+			"gesso-font-weight(${1|light,regular,semibold,bold|})"
+		],
+		"description": "Get font weight value"
+	},
+	"Gesso Line-height": {
+		"prefix": "glh",
+		"scope": "scss",
+		"body": [
+			"gesso-line-height(${1|tight,base,loose|})"
+		],
+		"description": "Get line-height value "
+	},
+	"Line-Height with Gesso": {
+		"prefix": "glh+",
+		"scope": "scss",
+		"body": [
+			"line-height: gesso-line-height(${1|tight,base,loose|});"
+		],
+		"description": "Line height with gesso function"
+	},
+	"Gesso Palette": {
+		"prefix": "gpl",
+		"scope": "scss",
+		"body": [
+			"gesso-palette(${1:color}, ${2:tint})"
+		],
+		"description": "Get palette color"
+	},
+	"Gesso Grayscale": {
+		"prefix": "ggs",
+		"scope": "scss",
+		"body": [
+			"gesso-grayscale(${1:color})"
+		],
+		"description": "Get grayscale color"
+	},
+	"Gesso Duration": {
+		"prefix": "gdr",
+		"scope": "scss",
+		"body": [
+			"gesso-duration(${1|shortest,short,standard,long,intro,outro|})"
+		],
+		"description": "Get transition duration value"
+	},
+	"Gesso Easing": {
+		"prefix": "gez",
+		"scope": "scss",
+		"body": [
+			"gesso-easing(${1|ease-in-out,ease-out,ease-in,sharp|})"
+		],
+		"description": "Get transition easing value"
+	},
+	"Gesso Box Shadow": {
+		"prefix": "gbx",
+		"scope": "scss",
+		"body": [
+			"gesso-box-shadow(${1|0,1,2,3,4,5|})"
+		],
+		"description": "Get box shadow value"
+	},
+	"Box Shadow with Gesso function": {
+		"prefix": "gbx+",
+		"scope": "scss",
+		"body": [
+			"box-shadow: gesso-box-shadow(${1|0,1,2,3,4,5|});"
+		],
+		"description": "Use box-shadow with Gesso function"
+	},
+	"Gesso Z-index": {
+		"prefix": "gz",
+		"scope": "scss",
+		"body": [
+			"gesso-z-index(${1|nav,drawer,modal|})"
+		],
+		"description": "Get z-index value"
+	},
+	"z-index with Gesso": {
+		"prefix": "gz+",
+		"scope": "scss",
+		"body": [
+			"z-index: gesso-z-index(${1|nav,drawer,modal|});"
+		],
+		"description": "Use z-index with Gesso function"
+	},
+}

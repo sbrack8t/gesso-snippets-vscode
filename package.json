@@ -1,0 +1,20 @@
+{
+    "name": "gessosnippets",
+    "displayName": "gessosnippets",
+    "description": "Gesso Theme snippets",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "scss",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
